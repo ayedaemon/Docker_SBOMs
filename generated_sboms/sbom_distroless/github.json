@@ -1,0 +1,1119 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "0.0.0-dev"
+  },
+  "metadata": {
+    "syft:distro": "pkg:generic/debian@11"
+  },
+  "manifests": {
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/Flask-2.1.2.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/Flask-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/Flask-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/flask@2.1.2": {
+          "package_url": "pkg:pypi/Flask@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/Jinja2-3.1.2.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/Jinja2-3.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/Jinja2-3.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/jinja2@3.1.2": {
+          "package_url": "pkg:pypi/Jinja2@3.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/MarkupSafe-2.1.1.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/MarkupSafe-2.1.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/MarkupSafe-2.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/markupsafe@2.1.1": {
+          "package_url": "pkg:pypi/MarkupSafe@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/Werkzeug-2.1.2.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/Werkzeug-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/Werkzeug-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/werkzeug@2.1.2": {
+          "package_url": "pkg:pypi/Werkzeug@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/certifi-2022.5.18.1.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/certifi-2022.5.18.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/certifi-2022.5.18.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/certifi@2022.5.18.1": {
+          "package_url": "pkg:pypi/certifi@2022.5.18.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/charset-normalizer@2.0.12": {
+          "package_url": "pkg:pypi/charset-normalizer@2.0.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/click-8.1.3.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/click-8.1.3.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/click-8.1.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/click@8.1.3": {
+          "package_url": "pkg:pypi/click@8.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/idna-3.3.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/idna-3.3.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/idna-3.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/idna@3.3": {
+          "package_url": "pkg:pypi/idna@3.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/itsdangerous-2.1.2.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/itsdangerous-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/itsdangerous-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/itsdangerous@2.1.2": {
+          "package_url": "pkg:pypi/itsdangerous@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/pip-22.0.4.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/pip-22.0.4.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/pip-22.0.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/pip@22.0.4": {
+          "package_url": "pkg:pypi/pip@22.0.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/requests-2.27.1.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/requests-2.27.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/requests-2.27.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/requests@2.27.1": {
+          "package_url": "pkg:pypi/requests@2.27.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/setuptools-58.1.0.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/setuptools-58.1.0.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/setuptools-58.1.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/setuptools@58.1.0": {
+          "package_url": "pkg:pypi/setuptools@58.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/app/venv/lib/python3.10/site-packages/urllib3-1.26.9.dist-info/METADATA": {
+      "name": "sbom_distroless:/app/venv/lib/python3.10/site-packages/urllib3-1.26.9.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/app/venv/lib/python3.10/site-packages/urllib3-1.26.9.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a161181459ecf6b065cfd75c82059ca838480d00644cae167dba5cbac1d3b718"
+      },
+      "resolved": {
+        "pkg:pypi/urllib3@1.26.9": {
+          "package_url": "pkg:pypi/urllib3@1.26.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/Flask-2.1.2.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/Flask-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/Flask-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/flask@2.1.2": {
+          "package_url": "pkg:pypi/Flask@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/Jinja2-3.1.2.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/Jinja2-3.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/Jinja2-3.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/jinja2@3.1.2": {
+          "package_url": "pkg:pypi/Jinja2@3.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/MarkupSafe-2.1.1.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/MarkupSafe-2.1.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/MarkupSafe-2.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/markupsafe@2.1.1": {
+          "package_url": "pkg:pypi/MarkupSafe@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/Werkzeug-2.1.2.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/Werkzeug-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/Werkzeug-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/werkzeug@2.1.2": {
+          "package_url": "pkg:pypi/Werkzeug@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/boto3-1.23.9.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/boto3-1.23.9.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/boto3-1.23.9.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/boto3@1.23.9": {
+          "package_url": "pkg:pypi/boto3@1.23.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/botocore-1.26.9.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/botocore-1.26.9.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/botocore-1.26.9.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/botocore@1.26.9": {
+          "package_url": "pkg:pypi/botocore@1.26.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/certifi-2022.5.18.1.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/certifi-2022.5.18.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/certifi-2022.5.18.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/certifi@2022.5.18.1": {
+          "package_url": "pkg:pypi/certifi@2022.5.18.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/charset_normalizer-2.0.12.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/charset_normalizer-2.0.12.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/charset_normalizer-2.0.12.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/charset-normalizer@2.0.12": {
+          "package_url": "pkg:pypi/charset-normalizer@2.0.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/click-8.1.3.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/click-8.1.3.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/click-8.1.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/click@8.1.3": {
+          "package_url": "pkg:pypi/click@8.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/idna-3.3.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/idna-3.3.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/idna-3.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/idna@3.3": {
+          "package_url": "pkg:pypi/idna@3.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/importlib_metadata-4.11.4.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/importlib_metadata-4.11.4.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/importlib_metadata-4.11.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/importlib-metadata@4.11.4": {
+          "package_url": "pkg:pypi/importlib-metadata@4.11.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/itsdangerous-2.1.2.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/itsdangerous-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/itsdangerous-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/itsdangerous@2.1.2": {
+          "package_url": "pkg:pypi/itsdangerous@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/jmespath-1.0.0.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/jmespath-1.0.0.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/jmespath-1.0.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/jmespath@1.0.0": {
+          "package_url": "pkg:pypi/jmespath@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/pip-22.1.1.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/pip-22.1.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/pip-22.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/pip@22.1.1": {
+          "package_url": "pkg:pypi/pip@22.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/python_dateutil-2.8.2.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/python_dateutil-2.8.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/python_dateutil-2.8.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/python-dateutil@2.8.2": {
+          "package_url": "pkg:pypi/python-dateutil@2.8.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/requests-2.27.1.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/requests-2.27.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/requests-2.27.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/requests@2.27.1": {
+          "package_url": "pkg:pypi/requests@2.27.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/s3transfer-0.5.2.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/s3transfer-0.5.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/s3transfer-0.5.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/s3transfer@0.5.2": {
+          "package_url": "pkg:pypi/s3transfer@0.5.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/setuptools-58.1.0.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/setuptools-58.1.0.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/setuptools-58.1.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/setuptools@58.1.0": {
+          "package_url": "pkg:pypi/setuptools@58.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/six-1.16.0.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/six-1.16.0.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/six-1.16.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/six@1.16.0": {
+          "package_url": "pkg:pypi/six@1.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/urllib3-1.26.9.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/urllib3-1.26.9.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/urllib3-1.26.9.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/urllib3@1.26.9": {
+          "package_url": "pkg:pypi/urllib3@1.26.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/wheel-0.37.1.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/wheel-0.37.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/wheel-0.37.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/wheel@0.37.1": {
+          "package_url": "pkg:pypi/wheel@0.37.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/local/lib/python3.9/site-packages/zipp-3.8.0.dist-info/METADATA": {
+      "name": "sbom_distroless:/usr/local/lib/python3.9/site-packages/zipp-3.8.0.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_distroless:/usr/local/lib/python3.9/site-packages/zipp-3.8.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c27ab7dd24c3e998f69cac2eca725c002d0247ba33fb1745fe98617bcd1f480b"
+      },
+      "resolved": {
+        "pkg:pypi/zipp@3.8.0": {
+          "package_url": "pkg:pypi/zipp@3.8.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/base-files/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/base-files/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/base-files/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:0b031aac65698c8794dc6bc317a45589e07bc2db1421178f30a2c7f69a4a2cf5"
+      },
+      "resolved": {
+        "pkg:deb/debian/base-files@11.1+deb11u3": {
+          "package_url": "pkg:deb/debian/base-files@11.1+deb11u3?arch=amd64\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/dash/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/dash/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/dash/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/dash@0.5.11+git20200708+dd9ef66-5": {
+          "package_url": "pkg:deb/debian/dash@0.5.11+git20200708+dd9ef66-5?arch=amd64\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libbz2-1.0/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libbz2-1.0/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libbz2-1.0/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libbz2-1.0@1.0.8-4": {
+          "package_url": "pkg:deb/debian/libbz2-1.0@1.0.8-4?arch=amd64\u0026upstream=bzip2\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libc-bin/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libc-bin/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libc-bin/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libc-bin@2.31-13+deb11u3": {
+          "package_url": "pkg:deb/debian/libc-bin@2.31-13+deb11u3?arch=amd64\u0026upstream=glibc\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libc6/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libc6/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libc6/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b685cdb4737bb7d2fb7f6dc55964811188770ec60f30b92629d8ce10391a13f2"
+      },
+      "resolved": {
+        "pkg:deb/debian/libc6@2.31-13+deb11u3": {
+          "package_url": "pkg:deb/debian/libc6@2.31-13+deb11u3?arch=amd64\u0026upstream=glibc\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libcom-err2/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libcom-err2/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libcom-err2/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libcom-err2@1.46.2-2": {
+          "package_url": "pkg:deb/debian/libcom-err2@1.46.2-2?arch=amd64\u0026upstream=e2fsprogs\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libcrypt1/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libcrypt1/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libcrypt1/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libcrypt1@1:4.4.18-4": {
+          "package_url": "pkg:deb/debian/libcrypt1@1:4.4.18-4?arch=amd64\u0026upstream=libxcrypt\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libdb5.3/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libdb5.3/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libdb5.3/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libdb5.3@5.3.28+dfsg1-0.8": {
+          "package_url": "pkg:deb/debian/libdb5.3@5.3.28+dfsg1-0.8?arch=amd64\u0026upstream=db5.3\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libexpat1/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libexpat1/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libexpat1/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libexpat1@2.2.10-2+deb11u3": {
+          "package_url": "pkg:deb/debian/libexpat1@2.2.10-2+deb11u3?arch=amd64\u0026upstream=expat\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libffi7/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libffi7/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libffi7/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libffi7@3.3-6": {
+          "package_url": "pkg:deb/debian/libffi7@3.3-6?arch=amd64\u0026upstream=libffi\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libgssapi-krb5-2/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libgssapi-krb5-2/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libgssapi-krb5-2/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libgssapi-krb5-2@1.18.3-6+deb11u1": {
+          "package_url": "pkg:deb/debian/libgssapi-krb5-2@1.18.3-6+deb11u1?arch=amd64\u0026upstream=krb5\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libk5crypto3/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libk5crypto3/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libk5crypto3/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libk5crypto3@1.18.3-6+deb11u1": {
+          "package_url": "pkg:deb/debian/libk5crypto3@1.18.3-6+deb11u1?arch=amd64\u0026upstream=krb5\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libkeyutils1/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libkeyutils1/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libkeyutils1/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libkeyutils1@1.6.1-2": {
+          "package_url": "pkg:deb/debian/libkeyutils1@1.6.1-2?arch=amd64\u0026upstream=keyutils\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libkrb5-3/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libkrb5-3/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libkrb5-3/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libkrb5-3@1.18.3-6+deb11u1": {
+          "package_url": "pkg:deb/debian/libkrb5-3@1.18.3-6+deb11u1?arch=amd64\u0026upstream=krb5\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libkrb5support0/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libkrb5support0/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libkrb5support0/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libkrb5support0@1.18.3-6+deb11u1": {
+          "package_url": "pkg:deb/debian/libkrb5support0@1.18.3-6+deb11u1?arch=amd64\u0026upstream=krb5\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/liblzma5/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/liblzma5/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/liblzma5/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/liblzma5@5.2.5-2.1~deb11u1": {
+          "package_url": "pkg:deb/debian/liblzma5@5.2.5-2.1~deb11u1?arch=amd64\u0026upstream=xz-utils\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libmpdec3/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libmpdec3/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libmpdec3/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libmpdec3@2.5.1-1": {
+          "package_url": "pkg:deb/debian/libmpdec3@2.5.1-1?arch=amd64\u0026upstream=mpdecimal\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libncursesw6/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libncursesw6/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libncursesw6/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libncursesw6@6.2+20201114-2": {
+          "package_url": "pkg:deb/debian/libncursesw6@6.2+20201114-2?arch=amd64\u0026upstream=ncurses\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libnsl2/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libnsl2/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libnsl2/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libnsl2@1.3.0-2": {
+          "package_url": "pkg:deb/debian/libnsl2@1.3.0-2?arch=amd64\u0026upstream=libnsl\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libpython3.9-minimal/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libpython3.9-minimal/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libpython3.9-minimal/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libpython3.9-minimal@3.9.2-1": {
+          "package_url": "pkg:deb/debian/libpython3.9-minimal@3.9.2-1?arch=amd64\u0026upstream=python3.9\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libreadline8/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libreadline8/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libreadline8/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libreadline8@8.1-1": {
+          "package_url": "pkg:deb/debian/libreadline8@8.1-1?arch=amd64\u0026upstream=readline\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libsqlite3-0/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libsqlite3-0/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libsqlite3-0/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libsqlite3-0@3.34.1-3": {
+          "package_url": "pkg:deb/debian/libsqlite3-0@3.34.1-3?arch=amd64\u0026upstream=sqlite3\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libssl1.1/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libssl1.1/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libssl1.1/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b685cdb4737bb7d2fb7f6dc55964811188770ec60f30b92629d8ce10391a13f2"
+      },
+      "resolved": {
+        "pkg:deb/debian/libssl1.1@1.1.1n-0+deb11u2": {
+          "package_url": "pkg:deb/debian/libssl1.1@1.1.1n-0+deb11u2?arch=amd64\u0026upstream=openssl\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libtinfo6/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libtinfo6/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libtinfo6/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libtinfo6@6.2+20201114-2": {
+          "package_url": "pkg:deb/debian/libtinfo6@6.2+20201114-2?arch=amd64\u0026upstream=ncurses\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libtirpc3/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libtirpc3/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libtirpc3/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libtirpc3@1.3.1-1": {
+          "package_url": "pkg:deb/debian/libtirpc3@1.3.1-1?arch=amd64\u0026upstream=libtirpc\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/libuuid1/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/libuuid1/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/libuuid1/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/libuuid1@2.36.1-8+deb11u1": {
+          "package_url": "pkg:deb/debian/libuuid1@2.36.1-8+deb11u1?arch=amd64\u0026upstream=util-linux\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/netbase/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/netbase/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/netbase/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:0b031aac65698c8794dc6bc317a45589e07bc2db1421178f30a2c7f69a4a2cf5"
+      },
+      "resolved": {
+        "pkg:deb/debian/netbase@6.3": {
+          "package_url": "pkg:deb/debian/netbase@6.3?arch=all\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/openssl/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/openssl/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/openssl/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b685cdb4737bb7d2fb7f6dc55964811188770ec60f30b92629d8ce10391a13f2"
+      },
+      "resolved": {
+        "pkg:deb/debian/openssl@1.1.1n-0+deb11u2": {
+          "package_url": "pkg:deb/debian/openssl@1.1.1n-0+deb11u2?arch=amd64\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/python3-distutils/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/python3-distutils/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/python3-distutils/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/python3-distutils@3.9.2-1": {
+          "package_url": "pkg:deb/debian/python3-distutils@3.9.2-1?arch=all\u0026upstream=python3-stdlib-extensions\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/tzdata/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/tzdata/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/tzdata/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:0b031aac65698c8794dc6bc317a45589e07bc2db1421178f30a2c7f69a4a2cf5"
+      },
+      "resolved": {
+        "pkg:deb/debian/tzdata@2021a-1+deb11u3": {
+          "package_url": "pkg:deb/debian/tzdata@2021a-1+deb11u3?arch=all\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/usr/share/doc/zlib1g/copyright": {
+      "name": "sbom_distroless:/usr/share/doc/zlib1g/copyright",
+      "file": {
+        "source_location": "sbom_distroless:/usr/share/doc/zlib1g/copyright"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:d199727747ff6b27a9ddd8767e51318fc1d1d200b4c6c4faa7afdc2179508299"
+      },
+      "resolved": {
+        "pkg:deb/debian/zlib1g@1:1.2.11.dfsg-2+deb11u1": {
+          "package_url": "pkg:deb/debian/zlib1g@1:1.2.11.dfsg-2+deb11u1?arch=amd64\u0026upstream=zlib\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/var/lib/dpkg/status.d/libgcc": {
+      "name": "sbom_distroless:/var/lib/dpkg/status.d/libgcc",
+      "file": {
+        "source_location": "sbom_distroless:/var/lib/dpkg/status.d/libgcc"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:e83d4114481dc897d49d5a9a8b68bf71c4f08f1a5c1adff44603c56b958fed53"
+      },
+      "resolved": {
+        "pkg:deb/debian/libgcc-s1@10.2.1-6": {
+          "package_url": "pkg:deb/debian/libgcc-s1@10.2.1-6?arch=amd64\u0026upstream=gcc-10\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/var/lib/dpkg/status.d/libgomp1": {
+      "name": "sbom_distroless:/var/lib/dpkg/status.d/libgomp1",
+      "file": {
+        "source_location": "sbom_distroless:/var/lib/dpkg/status.d/libgomp1"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:e83d4114481dc897d49d5a9a8b68bf71c4f08f1a5c1adff44603c56b958fed53"
+      },
+      "resolved": {
+        "pkg:deb/debian/libgomp1@10.2.1-6": {
+          "package_url": "pkg:deb/debian/libgomp1@10.2.1-6?arch=amd64\u0026upstream=gcc-10\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_distroless:/var/lib/dpkg/status.d/libstdc": {
+      "name": "sbom_distroless:/var/lib/dpkg/status.d/libstdc",
+      "file": {
+        "source_location": "sbom_distroless:/var/lib/dpkg/status.d/libstdc"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:e83d4114481dc897d49d5a9a8b68bf71c4f08f1a5c1adff44603c56b958fed53"
+      },
+      "resolved": {
+        "pkg:deb/debian/libstdc++6@10.2.1-6": {
+          "package_url": "pkg:deb/debian/libstdc++6@10.2.1-6?arch=amd64\u0026upstream=gcc-10\u0026distro=debian-11",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "scanned": "2022-05-27T21:57:26+05:30"
+}

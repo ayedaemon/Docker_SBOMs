@@ -1,0 +1,766 @@
+{
+  "version": 0,
+  "job": {},
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft",
+    "version": "0.0.0-dev"
+  },
+  "metadata": {
+    "syft:distro": "pkg:generic/alpine@3.16.0"
+  },
+  "manifests": {
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/Flask-2.1.2.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/Flask-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/Flask-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/flask@2.1.2": {
+          "package_url": "pkg:pypi/Flask@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/Jinja2-3.1.2.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/Jinja2-3.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/Jinja2-3.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/jinja2@3.1.2": {
+          "package_url": "pkg:pypi/Jinja2@3.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/MarkupSafe-2.1.1.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/MarkupSafe-2.1.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/MarkupSafe-2.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/markupsafe@2.1.1": {
+          "package_url": "pkg:pypi/MarkupSafe@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/Werkzeug-2.1.2.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/Werkzeug-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/Werkzeug-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/werkzeug@2.1.2": {
+          "package_url": "pkg:pypi/Werkzeug@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/certifi-2022.5.18.1.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/certifi-2022.5.18.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/certifi-2022.5.18.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/certifi@2022.5.18.1": {
+          "package_url": "pkg:pypi/certifi@2022.5.18.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/charset-normalizer@2.0.12": {
+          "package_url": "pkg:pypi/charset-normalizer@2.0.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/click-8.1.3.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/click-8.1.3.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/click-8.1.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/click@8.1.3": {
+          "package_url": "pkg:pypi/click@8.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/idna-3.3.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/idna-3.3.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/idna-3.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/idna@3.3": {
+          "package_url": "pkg:pypi/idna@3.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/itsdangerous-2.1.2.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/itsdangerous-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/itsdangerous-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/itsdangerous@2.1.2": {
+          "package_url": "pkg:pypi/itsdangerous@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/pip-22.0.4.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/pip-22.0.4.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/pip-22.0.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/pip@22.0.4": {
+          "package_url": "pkg:pypi/pip@22.0.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/requests-2.27.1.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/requests-2.27.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/requests-2.27.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/requests@2.27.1": {
+          "package_url": "pkg:pypi/requests@2.27.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/setuptools-58.1.0.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/setuptools-58.1.0.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/setuptools-58.1.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/setuptools@58.1.0": {
+          "package_url": "pkg:pypi/setuptools@58.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/app/venv/lib/python3.10/site-packages/urllib3-1.26.9.dist-info/METADATA": {
+      "name": "sbom_alpine:/app/venv/lib/python3.10/site-packages/urllib3-1.26.9.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/app/venv/lib/python3.10/site-packages/urllib3-1.26.9.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:3a50bdd3a51a6dd4245d2c8f4377f045001f28ce2882cba7bbd3d17193099fae"
+      },
+      "resolved": {
+        "pkg:pypi/urllib3@1.26.9": {
+          "package_url": "pkg:pypi/urllib3@1.26.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/lib/apk/db/installed": {
+      "name": "sbom_alpine:/lib/apk/db/installed",
+      "file": {
+        "source_location": "sbom_alpine:/lib/apk/db/installed"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:56bb29f4ee33dd7e01ab6090d7666ccc03f5bb964e6b05dc18f06c2e97c23cd1"
+      },
+      "resolved": {
+        "pkg:alpine/.python-rundeps@20220525.214101": {
+          "package_url": "pkg:alpine/.python-rundeps@20220525.214101?arch=noarch\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/alpine-baselayout-data@3.2.0-r20": {
+          "package_url": "pkg:alpine/alpine-baselayout-data@3.2.0-r20?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/alpine-baselayout@3.2.0-r20": {
+          "package_url": "pkg:alpine/alpine-baselayout@3.2.0-r20?arch=x86_64\u0026upstream=alpine-baselayout\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/alpine-keys@2.4-r1": {
+          "package_url": "pkg:alpine/alpine-keys@2.4-r1?arch=x86_64\u0026upstream=alpine-keys\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/apk-tools@2.12.9-r3": {
+          "package_url": "pkg:alpine/apk-tools@2.12.9-r3?arch=x86_64\u0026upstream=apk-tools\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/busybox@1.35.0-r13": {
+          "package_url": "pkg:alpine/busybox@1.35.0-r13?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/ca-certificates-bundle@20211220-r0": {
+          "package_url": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/ca-certificates@20211220-r0": {
+          "package_url": "pkg:alpine/ca-certificates@20211220-r0?arch=x86_64\u0026upstream=ca-certificates\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/expat@2.4.8-r0": {
+          "package_url": "pkg:alpine/expat@2.4.8-r0?arch=x86_64\u0026upstream=expat\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/gdbm@1.23-r0": {
+          "package_url": "pkg:alpine/gdbm@1.23-r0?arch=x86_64\u0026upstream=gdbm\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/keyutils-libs@1.6.3-r1": {
+          "package_url": "pkg:alpine/keyutils-libs@1.6.3-r1?arch=x86_64\u0026upstream=keyutils\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/krb5-conf@1.0-r2": {
+          "package_url": "pkg:alpine/krb5-conf@1.0-r2?arch=x86_64\u0026upstream=krb5-conf\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/krb5-libs@1.19.3-r0": {
+          "package_url": "pkg:alpine/krb5-libs@1.19.3-r0?arch=x86_64\u0026upstream=krb5\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libbz2@1.0.8-r1": {
+          "package_url": "pkg:alpine/libbz2@1.0.8-r1?arch=x86_64\u0026upstream=bzip2\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libc-utils@0.7.2-r3": {
+          "package_url": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64\u0026upstream=libc-dev\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libcom_err@1.46.5-r0": {
+          "package_url": "pkg:alpine/libcom_err@1.46.5-r0?arch=x86_64\u0026upstream=e2fsprogs\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libcrypto1.1@1.1.1o-r0": {
+          "package_url": "pkg:alpine/libcrypto1.1@1.1.1o-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libffi@3.4.2-r1": {
+          "package_url": "pkg:alpine/libffi@3.4.2-r1?arch=x86_64\u0026upstream=libffi\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libintl@0.21-r2": {
+          "package_url": "pkg:alpine/libintl@0.21-r2?arch=x86_64\u0026upstream=gettext\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libnsl@2.0.0-r0": {
+          "package_url": "pkg:alpine/libnsl@2.0.0-r0?arch=x86_64\u0026upstream=libnsl\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libssl1.1@1.1.1o-r0": {
+          "package_url": "pkg:alpine/libssl1.1@1.1.1o-r0?arch=x86_64\u0026upstream=openssl\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libtirpc-conf@1.3.2-r0": {
+          "package_url": "pkg:alpine/libtirpc-conf@1.3.2-r0?arch=x86_64\u0026upstream=libtirpc\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libtirpc@1.3.2-r0": {
+          "package_url": "pkg:alpine/libtirpc@1.3.2-r0?arch=x86_64\u0026upstream=libtirpc\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libuuid@2.38-r1": {
+          "package_url": "pkg:alpine/libuuid@2.38-r1?arch=x86_64\u0026upstream=util-linux\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/libverto@0.3.2-r0": {
+          "package_url": "pkg:alpine/libverto@0.3.2-r0?arch=x86_64\u0026upstream=libverto\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/musl-utils@1.2.3-r0": {
+          "package_url": "pkg:alpine/musl-utils@1.2.3-r0?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/musl@1.2.3-r0": {
+          "package_url": "pkg:alpine/musl@1.2.3-r0?arch=x86_64\u0026upstream=musl\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/ncurses-libs@6.3_p20220521-r0": {
+          "package_url": "pkg:alpine/ncurses-libs@6.3_p20220521-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/ncurses-terminfo-base@6.3_p20220521-r0": {
+          "package_url": "pkg:alpine/ncurses-terminfo-base@6.3_p20220521-r0?arch=x86_64\u0026upstream=ncurses\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/readline@8.1.2-r0": {
+          "package_url": "pkg:alpine/readline@8.1.2-r0?arch=x86_64\u0026upstream=readline\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/scanelf@1.3.4-r0": {
+          "package_url": "pkg:alpine/scanelf@1.3.4-r0?arch=x86_64\u0026upstream=pax-utils\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/sqlite-libs@3.38.5-r0": {
+          "package_url": "pkg:alpine/sqlite-libs@3.38.5-r0?arch=x86_64\u0026upstream=sqlite\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/ssl_client@1.35.0-r13": {
+          "package_url": "pkg:alpine/ssl_client@1.35.0-r13?arch=x86_64\u0026upstream=busybox\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/tzdata@2022a-r0": {
+          "package_url": "pkg:alpine/tzdata@2022a-r0?arch=x86_64\u0026upstream=tzdata\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/xz-libs@5.2.5-r1": {
+          "package_url": "pkg:alpine/xz-libs@5.2.5-r1?arch=x86_64\u0026upstream=xz\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:alpine/zlib@1.2.12-r1": {
+          "package_url": "pkg:alpine/zlib@1.2.12-r1?arch=x86_64\u0026upstream=zlib\u0026distro=alpine-3.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/Flask-2.1.2.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/Flask-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/Flask-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/flask@2.1.2": {
+          "package_url": "pkg:pypi/Flask@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/Jinja2-3.1.2.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/Jinja2-3.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/Jinja2-3.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/jinja2@3.1.2": {
+          "package_url": "pkg:pypi/Jinja2@3.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/MarkupSafe-2.1.1.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/MarkupSafe-2.1.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/MarkupSafe-2.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/markupsafe@2.1.1": {
+          "package_url": "pkg:pypi/MarkupSafe@2.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/Werkzeug-2.1.2.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/Werkzeug-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/Werkzeug-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/werkzeug@2.1.2": {
+          "package_url": "pkg:pypi/Werkzeug@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/boto3-1.23.9.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/boto3-1.23.9.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/boto3-1.23.9.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/boto3@1.23.9": {
+          "package_url": "pkg:pypi/boto3@1.23.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/botocore-1.26.9.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/botocore-1.26.9.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/botocore-1.26.9.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/botocore@1.26.9": {
+          "package_url": "pkg:pypi/botocore@1.26.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/certifi-2022.5.18.1.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/certifi-2022.5.18.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/certifi-2022.5.18.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/certifi@2022.5.18.1": {
+          "package_url": "pkg:pypi/certifi@2022.5.18.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/charset_normalizer-2.0.12.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/charset_normalizer-2.0.12.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/charset_normalizer-2.0.12.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/charset-normalizer@2.0.12": {
+          "package_url": "pkg:pypi/charset-normalizer@2.0.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/click-8.1.3.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/click-8.1.3.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/click-8.1.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/click@8.1.3": {
+          "package_url": "pkg:pypi/click@8.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/idna-3.3.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/idna-3.3.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/idna-3.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/idna@3.3": {
+          "package_url": "pkg:pypi/idna@3.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/importlib_metadata-4.11.4.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/importlib_metadata-4.11.4.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/importlib_metadata-4.11.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/importlib-metadata@4.11.4": {
+          "package_url": "pkg:pypi/importlib-metadata@4.11.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/itsdangerous-2.1.2.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/itsdangerous-2.1.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/itsdangerous-2.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/itsdangerous@2.1.2": {
+          "package_url": "pkg:pypi/itsdangerous@2.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/jmespath-1.0.0.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/jmespath-1.0.0.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/jmespath-1.0.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/jmespath@1.0.0": {
+          "package_url": "pkg:pypi/jmespath@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/pip-22.0.4.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/pip-22.0.4.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/pip-22.0.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:fc2e5e7d77a304b61fdaf16214316367a57fb76cc8163f9ad7f1ff1cced6fc63"
+      },
+      "resolved": {
+        "pkg:pypi/pip@22.0.4": {
+          "package_url": "pkg:pypi/pip@22.0.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/python_dateutil-2.8.2.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/python_dateutil-2.8.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/python_dateutil-2.8.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/python-dateutil@2.8.2": {
+          "package_url": "pkg:pypi/python-dateutil@2.8.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/requests-2.27.1.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/requests-2.27.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/requests-2.27.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/requests@2.27.1": {
+          "package_url": "pkg:pypi/requests@2.27.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/s3transfer-0.5.2.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/s3transfer-0.5.2.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/s3transfer-0.5.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/s3transfer@0.5.2": {
+          "package_url": "pkg:pypi/s3transfer@0.5.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/setuptools-57.5.0.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/setuptools-57.5.0.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/setuptools-57.5.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:fc2e5e7d77a304b61fdaf16214316367a57fb76cc8163f9ad7f1ff1cced6fc63"
+      },
+      "resolved": {
+        "pkg:pypi/setuptools@57.5.0": {
+          "package_url": "pkg:pypi/setuptools@57.5.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/six-1.16.0.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/six-1.16.0.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/six-1.16.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/six@1.16.0": {
+          "package_url": "pkg:pypi/six@1.16.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/urllib3-1.26.9.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/urllib3-1.26.9.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/urllib3-1.26.9.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/urllib3@1.26.9": {
+          "package_url": "pkg:pypi/urllib3@1.26.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/wheel-0.37.1.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/wheel-0.37.1.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/wheel-0.37.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:fc2e5e7d77a304b61fdaf16214316367a57fb76cc8163f9ad7f1ff1cced6fc63"
+      },
+      "resolved": {
+        "pkg:pypi/wheel@0.37.1": {
+          "package_url": "pkg:pypi/wheel@0.37.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "sbom_alpine:/usr/local/lib/python3.8/site-packages/zipp-3.8.0.dist-info/METADATA": {
+      "name": "sbom_alpine:/usr/local/lib/python3.8/site-packages/zipp-3.8.0.dist-info/METADATA",
+      "file": {
+        "source_location": "sbom_alpine:/usr/local/lib/python3.8/site-packages/zipp-3.8.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:73aea117088de1d1f83ad32d56992587f1a932a820a88a3eb4e5b3b3b90efd02"
+      },
+      "resolved": {
+        "pkg:pypi/zipp@3.8.0": {
+          "package_url": "pkg:pypi/zipp@3.8.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "scanned": "2022-05-27T21:57:32+05:30"
+}
